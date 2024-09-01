@@ -289,7 +289,7 @@ def main():
     load_settings()  # 加载设置
 
     # 在这里替换为你的Bot Token
-    application = Application.builder().token("7220564243:AAGWg83AZSMEN9kEDDK4lfn-DB2zLDifhr4").build()
+    application = Application.builder().token("你的机器人token").build()
 
     conv_handler = ConversationHandler(
         entry_points=[
